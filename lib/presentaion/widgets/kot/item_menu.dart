@@ -79,8 +79,9 @@ class _ItemModalItemState extends State<ItemModalItem> {
     return Padding(
       padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
       child: SizedBox(
-          height:
-              cartProvider.cartItemList.isEmpty ? height * 0.293 : height * 0.4,
+          height: cartProvider.cartItemList.isEmpty
+              ? height * 0.293
+              : height * 0.42,
           width: cartProvider.cartItemList.isEmpty ? width : width * 0.5,
           child: Card(
             color: AppColors.white,
